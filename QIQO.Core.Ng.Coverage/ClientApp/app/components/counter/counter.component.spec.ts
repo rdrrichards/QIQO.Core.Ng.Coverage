@@ -1,5 +1,4 @@
-/// <reference path="../../../../node_modules/@types/jasmine/index.d.ts" />
-import { assert } from 'chai';
+import { } from 'jasmine';
 import { CounterComponent } from './counter.component';
 import { TestBed, async, ComponentFixture } from '@angular/core/testing';
 
@@ -7,7 +6,7 @@ let fixture: ComponentFixture<CounterComponent>;
 
 describe('Counter component', () => {
     beforeEach(() => {
-        TestBed.configureTestingModule({ declarations: [CounterComponent] });
+        TestBed.configureTestingModule({ declarations: [CounterComponent] }).compileComponents();
         fixture = TestBed.createComponent(CounterComponent);
         fixture.detectChanges();
     });
