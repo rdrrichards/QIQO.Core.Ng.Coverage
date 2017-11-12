@@ -72,8 +72,6 @@ Now, when I run `npm test` from the root of the application, I get coverage repo
 
 You can change the `singleRun` in the *karma.conf.js* to false, if you want this to run and refresh as you make updates to code and unit tests. I ran into an issue where this when I tried all of this with the template after moving to Angular 5.0.0. With ng 5.0.0, a compile time warning is output, which is causing karma to recompile over and over, whether there are changes to code or not. I didn't have this issue with ng 4.x, which is the version the template is using out of the box.
 
-[QIQO.Core.Ng.Coverage](https://github.com/rdrrichards/QIQO.Core.Ng.Coverage) is where I have a project that I have added these changes for you to look at if you like.
-
 References:
 
 [Angular2SpaCodeCoverage](https://github.com/aspnet/JavaScriptServices/wiki/Angular2SpaCodeCoverage) from the [JavaScriptServices](https://github.com/aspnet/JavaScriptServices) wiki.
