@@ -23,7 +23,7 @@ to this:
 
 `const context = require.context('../app', true, /\.ts$/);`
 
-This (above) is directly from fisrt reference below.
+This (above) is directly from first reference below.
 
 Next, I replaced the *ClientApp/test/karma.conf.js* content with this:
 
