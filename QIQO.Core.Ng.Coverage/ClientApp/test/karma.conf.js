@@ -19,6 +19,9 @@ module.exports = function(config) {
   config.set({
     basePath: '.',
     frameworks: ['jasmine'],
+    // plugins: [
+    //   require('karma-jasmine-html-reporter')
+    // ],
     files: ['../../wwwroot/dist/vendor.js', './boot-tests.ts'],
     preprocessors: {
       './boot-tests.ts': ['webpack']
